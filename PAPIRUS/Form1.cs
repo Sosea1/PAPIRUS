@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,8 +13,8 @@ using System.Windows.Forms;
 namespace PAPIRUS
 {
     public partial class Form1 : Form
-    {   List<PictureBox> Temp = new List<PictureBox>();
-
+    {   
+        List<PictureBox> Temp = new List<PictureBox>();
         float zoom=1.1f;
         
         int zoom_index=0;
@@ -111,23 +112,19 @@ namespace PAPIRUS
 
         private void component1_MouseDown(object sender, MouseEventArgs e)
         {
-
             status = true;
-            
-           
-           
-                Temp.Image = component1.Image;
-                Temp.Size = component1.Size;
-                Temp.SizeMode = component1.SizeMode;
-                panel1.Controls.Add(Temp);
-            
+            Temp.Add(new PictureBox());   
+            Temp.ElementAt(Temp.Count - 1).Image = component1.Image;
+            Temp.ElementAt(Temp.Count - 1).Size = component1.Size;
+            Temp.ElementAt(Temp.Count - 1).SizeMode = component1.SizeMode;
+            panel1.Controls.Add(Temp.ElementAt(Temp.Count - 1));
         }
 
         private void component1_MouseMove(object sender, MouseEventArgs e)
         {
             if (status == true)
             {
-                Temp.Location = new Point(MousePosition.X - this.Location.X - Temp.Width / 2, MousePosition.Y - this.Location.Y - Temp.Height);
+                Temp.ElementAt(Temp.Count - 1).Location = new Point(MousePosition.X - this.Location.X - Temp.ElementAt(Temp.Count - 1).Width / 2, MousePosition.Y - this.Location.Y - Temp.ElementAt(Temp.Count - 1).Height);
             }
         }
 
@@ -135,7 +132,6 @@ namespace PAPIRUS
         private void component1_MouseUp(object sender, MouseEventArgs e)
         {
             status = false;
-            
         }
 
        
