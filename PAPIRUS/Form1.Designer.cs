@@ -32,25 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.редакторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.отменитьОперациюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вырезатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.обновитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.расчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.отменитьВнешнююНагрузкуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.задатьТекущееЗначениеЧастотыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.оптимизацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выборМетодаВычисленийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вычисленияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,6 +52,21 @@
             this.вставкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.выделитьвсеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.редакторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отменитьОперациюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вырезатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.обновитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.расчетыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отменитьВнешнююНагрузкуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задатьТекущееЗначениеЧастотыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оптимизацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выборМетодаВычисленийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вычисленияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.сервисToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.настройкиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.параметрыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,21 +76,31 @@
             this.поискToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.опрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.component1 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.menuStrip2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.component1)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -104,6 +110,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(209)))), ((int)(((byte)(242)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem1,
             this.правкаToolStripMenuItem,
@@ -114,150 +121,9 @@
             this.справкаToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(945, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1783, 27);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // редакторToolStripMenuItem
-            // 
-            this.редакторToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.отменитьОперациюToolStripMenuItem,
-            this.копироватьToolStripMenuItem,
-            this.вставитьToolStripMenuItem,
-            this.вырезатьToolStripMenuItem,
-            this.удалитьToolStripMenuItem,
-            this.обновитьToolStripMenuItem,
-            this.настройкиToolStripMenuItem});
-            this.редакторToolStripMenuItem.Name = "редакторToolStripMenuItem";
-            this.редакторToolStripMenuItem.Size = new System.Drawing.Size(80, 23);
-            this.редакторToolStripMenuItem.Text = "Редактор";
-            // 
-            // отменитьОперациюToolStripMenuItem
-            // 
-            this.отменитьОперациюToolStripMenuItem.Name = "отменитьОперациюToolStripMenuItem";
-            this.отменитьОперациюToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.отменитьОперациюToolStripMenuItem.Text = "Отменить операцию";
-            // 
-            // копироватьToolStripMenuItem
-            // 
-            this.копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
-            this.копироватьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.копироватьToolStripMenuItem.Text = "Копировать";
-            // 
-            // вставитьToolStripMenuItem
-            // 
-            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
-            this.вставитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.вставитьToolStripMenuItem.Text = "Вставить";
-            // 
-            // вырезатьToolStripMenuItem
-            // 
-            this.вырезатьToolStripMenuItem.Name = "вырезатьToolStripMenuItem";
-            this.вырезатьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.вырезатьToolStripMenuItem.Text = "Вырезать";
-            // 
-            // удалитьToolStripMenuItem
-            // 
-            this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
-            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.удалитьToolStripMenuItem.Text = "Удалить";
-            // 
-            // обновитьToolStripMenuItem
-            // 
-            this.обновитьToolStripMenuItem.Name = "обновитьToolStripMenuItem";
-            this.обновитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.обновитьToolStripMenuItem.Text = "Обновить";
-            // 
-            // настройкиToolStripMenuItem
-            // 
-            this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
-            this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
-            this.настройкиToolStripMenuItem.Text = "Настройки";
-            // 
-            // расчетыToolStripMenuItem
-            // 
-            this.расчетыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.отменитьВнешнююНагрузкуToolStripMenuItem,
-            this.задатьТекущееЗначениеЧастотыToolStripMenuItem,
-            this.оптимизацияToolStripMenuItem,
-            this.выборМетодаВычисленийToolStripMenuItem,
-            this.вычисленияToolStripMenuItem});
-            this.расчетыToolStripMenuItem.Name = "расчетыToolStripMenuItem";
-            this.расчетыToolStripMenuItem.Size = new System.Drawing.Size(73, 23);
-            this.расчетыToolStripMenuItem.Text = "Расчеты";
-            // 
-            // отменитьВнешнююНагрузкуToolStripMenuItem
-            // 
-            this.отменитьВнешнююНагрузкуToolStripMenuItem.Name = "отменитьВнешнююНагрузкуToolStripMenuItem";
-            this.отменитьВнешнююНагрузкуToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
-            this.отменитьВнешнююНагрузкуToolStripMenuItem.Text = "Отменить внешнюю нагрузку";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 23);
-            // 
-            // задатьТекущееЗначениеЧастотыToolStripMenuItem
-            // 
-            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Name = "задатьТекущееЗначениеЧастотыToolStripMenuItem";
-            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
-            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Text = "Задать текущее значение частоты";
-            // 
-            // оптимизацияToolStripMenuItem
-            // 
-            this.оптимизацияToolStripMenuItem.Name = "оптимизацияToolStripMenuItem";
-            this.оптимизацияToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
-            this.оптимизацияToolStripMenuItem.Text = "Оптимизация";
-            // 
-            // выборМетодаВычисленийToolStripMenuItem
-            // 
-            this.выборМетодаВычисленийToolStripMenuItem.Name = "выборМетодаВычисленийToolStripMenuItem";
-            this.выборМетодаВычисленийToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
-            this.выборМетодаВычисленийToolStripMenuItem.Text = "Выбор метода вычислений";
-            // 
-            // вычисленияToolStripMenuItem
-            // 
-            this.вычисленияToolStripMenuItem.Name = "вычисленияToolStripMenuItem";
-            this.вычисленияToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
-            this.вычисленияToolStripMenuItem.Text = "Вычисления";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 30);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(945, 54);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aToolStripMenuItem,
-            this.vToolStripMenuItem});
-            this.menuStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.menuStrip2.Location = new System.Drawing.Point(3, 303);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(62, 27);
-            this.menuStrip2.TabIndex = 3;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // aToolStripMenuItem
-            // 
-            this.aToolStripMenuItem.Name = "aToolStripMenuItem";
-            this.aToolStripMenuItem.Size = new System.Drawing.Size(28, 23);
-            this.aToolStripMenuItem.Text = "a";
-            // 
-            // vToolStripMenuItem
-            // 
-            this.vToolStripMenuItem.Name = "vToolStripMenuItem";
-            this.vToolStripMenuItem.Size = new System.Drawing.Size(28, 23);
-            this.vToolStripMenuItem.Text = "v";
             // 
             // файлToolStripMenuItem1
             // 
@@ -419,6 +285,109 @@
             this.выделитьвсеToolStripMenuItem.Size = new System.Drawing.Size(237, 24);
             this.выделитьвсеToolStripMenuItem.Text = "Выделить &все";
             // 
+            // редакторToolStripMenuItem
+            // 
+            this.редакторToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.отменитьОперациюToolStripMenuItem,
+            this.копироватьToolStripMenuItem,
+            this.вставитьToolStripMenuItem,
+            this.вырезатьToolStripMenuItem,
+            this.удалитьToolStripMenuItem,
+            this.обновитьToolStripMenuItem,
+            this.настройкиToolStripMenuItem});
+            this.редакторToolStripMenuItem.Name = "редакторToolStripMenuItem";
+            this.редакторToolStripMenuItem.Size = new System.Drawing.Size(80, 23);
+            this.редакторToolStripMenuItem.Text = "Редактор";
+            // 
+            // отменитьОперациюToolStripMenuItem
+            // 
+            this.отменитьОперациюToolStripMenuItem.Name = "отменитьОперациюToolStripMenuItem";
+            this.отменитьОперациюToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.отменитьОперациюToolStripMenuItem.Text = "Отменить операцию";
+            // 
+            // копироватьToolStripMenuItem
+            // 
+            this.копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
+            this.копироватьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.копироватьToolStripMenuItem.Text = "Копировать";
+            // 
+            // вставитьToolStripMenuItem
+            // 
+            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
+            this.вставитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.вставитьToolStripMenuItem.Text = "Вставить";
+            // 
+            // вырезатьToolStripMenuItem
+            // 
+            this.вырезатьToolStripMenuItem.Name = "вырезатьToolStripMenuItem";
+            this.вырезатьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.вырезатьToolStripMenuItem.Text = "Вырезать";
+            // 
+            // удалитьToolStripMenuItem
+            // 
+            this.удалитьToolStripMenuItem.Name = "удалитьToolStripMenuItem";
+            this.удалитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.удалитьToolStripMenuItem.Text = "Удалить";
+            // 
+            // обновитьToolStripMenuItem
+            // 
+            this.обновитьToolStripMenuItem.Name = "обновитьToolStripMenuItem";
+            this.обновитьToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.обновитьToolStripMenuItem.Text = "Обновить";
+            // 
+            // настройкиToolStripMenuItem
+            // 
+            this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
+            this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.настройкиToolStripMenuItem.Text = "Настройки";
+            // 
+            // расчетыToolStripMenuItem
+            // 
+            this.расчетыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.отменитьВнешнююНагрузкуToolStripMenuItem,
+            this.задатьТекущееЗначениеЧастотыToolStripMenuItem,
+            this.оптимизацияToolStripMenuItem,
+            this.выборМетодаВычисленийToolStripMenuItem,
+            this.вычисленияToolStripMenuItem});
+            this.расчетыToolStripMenuItem.Name = "расчетыToolStripMenuItem";
+            this.расчетыToolStripMenuItem.Size = new System.Drawing.Size(73, 23);
+            this.расчетыToolStripMenuItem.Text = "Расчеты";
+            // 
+            // отменитьВнешнююНагрузкуToolStripMenuItem
+            // 
+            this.отменитьВнешнююНагрузкуToolStripMenuItem.Name = "отменитьВнешнююНагрузкуToolStripMenuItem";
+            this.отменитьВнешнююНагрузкуToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
+            this.отменитьВнешнююНагрузкуToolStripMenuItem.Text = "Отменить внешнюю нагрузку";
+            // 
+            // задатьТекущееЗначениеЧастотыToolStripMenuItem
+            // 
+            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Name = "задатьТекущееЗначениеЧастотыToolStripMenuItem";
+            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
+            this.задатьТекущееЗначениеЧастотыToolStripMenuItem.Text = "Задать текущее значение частоты";
+            // 
+            // оптимизацияToolStripMenuItem
+            // 
+            this.оптимизацияToolStripMenuItem.Name = "оптимизацияToolStripMenuItem";
+            this.оптимизацияToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
+            this.оптимизацияToolStripMenuItem.Text = "Оптимизация";
+            // 
+            // выборМетодаВычисленийToolStripMenuItem
+            // 
+            this.выборМетодаВычисленийToolStripMenuItem.Name = "выборМетодаВычисленийToolStripMenuItem";
+            this.выборМетодаВычисленийToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
+            this.выборМетодаВычисленийToolStripMenuItem.Text = "Выбор метода вычислений";
+            // 
+            // вычисленияToolStripMenuItem
+            // 
+            this.вычисленияToolStripMenuItem.Name = "вычисленияToolStripMenuItem";
+            this.вычисленияToolStripMenuItem.Size = new System.Drawing.Size(296, 24);
+            this.вычисленияToolStripMenuItem.Text = "Вычисления";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 23);
+            // 
             // сервисToolStripMenuItem
             // 
             this.сервисToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -481,72 +450,152 @@
             this.опрограммеToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
             this.опрограммеToolStripMenuItem.Text = "&О программе...";
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(209)))), ((int)(((byte)(242)))));
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox6);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox7);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox8);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox9);
+            this.flowLayoutPanel2.Controls.Add(this.pictureBox10);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 71);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(75, 634);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(63, 40);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::PAPIRUS.Properties.Resources.двухполюсник;
+            this.pictureBox7.Location = new System.Drawing.Point(3, 49);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(63, 50);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(3, 105);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(63, 50);
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(3, 161);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(63, 50);
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(3, 217);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(63, 50);
+            this.pictureBox10.TabIndex = 4;
+            this.pictureBox10.TabStop = false;
+            // 
+            // component1
+            // 
+            this.component1.BackColor = System.Drawing.SystemColors.Control;
+            this.component1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.component1.Image = global::PAPIRUS.Properties.Resources.двухполюсник;
+            this.component1.Location = new System.Drawing.Point(3, 3);
+            this.component1.Name = "component1";
+            this.component1.Size = new System.Drawing.Size(69, 37);
+            this.component1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.component1.TabIndex = 1;
+            this.component1.TabStop = false;
+        
+            this.component1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.component1_MouseDown);
+            this.component1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.component1_MouseMove);
+            this.component1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.component1_MouseUp);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(209)))), ((int)(((byte)(242)))));
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel1.Controls.Add(this.component1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 27);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1807, 40);
+            this.flowLayoutPanel1.TabIndex = 6;
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::PAPIRUS.Properties.Resources.двухполюсник;
+            this.pictureBox1.Location = new System.Drawing.Point(189, 299);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.Size = new System.Drawing.Size(398, 297);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PAPIRUS.Properties.Resources.двухполюсник;
-            this.pictureBox2.Location = new System.Drawing.Point(89, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(175, 3);
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::PAPIRUS.Properties.Resources.двухполюсник;
+            this.pictureBox3.Location = new System.Drawing.Point(1053, 18);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.Size = new System.Drawing.Size(523, 270);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox4
+            // panel1
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(261, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(347, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 50);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(81, 74);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1650, 658);
+            this.panel1.TabIndex = 7;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.component1_MouseDown);
+            
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(945, 596);
+            this.ClientSize = new System.Drawing.Size(1783, 790);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
+            this.Controls.Add(this.panel1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "ПАПИРУС";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.component1)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -572,7 +621,6 @@
         private System.Windows.Forms.ToolStripMenuItem выборМетодаВычисленийToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вычисленияToolStripMenuItem;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem1;
@@ -602,11 +650,17 @@
         private System.Windows.Forms.ToolStripMenuItem поискToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem опрограммеToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        public System.Windows.Forms.PictureBox component1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
